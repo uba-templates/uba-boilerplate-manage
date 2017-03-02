@@ -1,0 +1,226 @@
+header {
+    height: 50px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    background: white;
+}
+.u-navlayout{
+    overflow: initial!important;
+}
+
+.foldingpad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    background-color: #d85342;
+    vertical-align: middle;
+}
+
+/*左侧menu*/
+
+.page-sidebar {
+    padding-top: 10px;
+    background: #333 none repeat scroll 0 0;
+    z-index: 100;
+    width: 75px;
+    position: fixed;
+    top: 50px;
+    min-height: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease; /* Firefox 4 */
+    -webkit-transition: all 0.3s ease; /* Safari 和 Chrome */
+    -o-transition: all 0.3s ease; /* Opera */
+}
+
+#menu .nav-li .uf, #nav-zone .nav-li .uf {
+    font-size: 20px;
+    color: #bfbfbf;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+#nav-zone .nav-li > a {
+    text-decoration: none;
+    display: block;
+    height: 56px;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-zone .nav-li {
+	list-style-type:none;
+    height: 50px;
+    line-height: 51px;
+    border-top: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+    /*  overflow-x: hidden; */
+    border-left: 6px solid transparent;
+}
+
+#nav-zone .nav-li-small .uf {
+    color: #fff;
+}
+
+ul#menu {
+    /*background: #0697E8;*/
+}
+
+ul#nav-zone,
+ul.nav-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-menu {
+    height: calc(100% - 45px)
+}
+
+.nav-menu li.nav-li {
+    text-align: center;
+    border-top: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+}
+
+.nav-menu li.nav-li:hover {
+    background-color: #4f4f4f;
+    color: #fff;
+}
+
+li.nav-li.live-hover:hover {
+    text-decoration: none;
+    background-color: #036FD3;
+    color: #fff;
+    border-left-color: #FF9800;
+}
+
+.nav-menu li.nav-li > a {
+    display: block;
+    padding: 8px 0;
+}
+
+.page-small-sidebar {
+    width: 55px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    margin-left: 0px;
+    height: 100%;
+    background: #0697E8;
+}
+
+.samll-logo {
+    width: 40px;
+    position: relative;
+    left: 7px;
+    top: 15px;
+}
+
+.page-small-sidebar ul#nav-zone {
+    width: 100%;
+    background: #0697E8;
+}
+
+.nav-title {
+    color: #fff;
+}
+
+.nav-li-small {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+    position: relative;
+}
+
+.nav-li-small i {
+    font-size: 18px;
+    color: #A6ACB4;
+}
+
+.nav-li i.fa {
+    font-size: 16px;
+    color: #A6ACB4;
+}
+
+#menu a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.specli {
+    background: #4f4f4f;
+    border-left-color: #d85142 !important;
+}
+#menu .nav-li.specli span, #menu .nav-li.specli i{
+    color: #fff;
+}
+/* 2016.12.2修改导航折叠标签 */
+.foldingpad .uf {
+    font-size: 25px;
+    color: #fff;
+}
+
+/* 20161206 导航条新增内容 */
+
+.text-right .u-navbar-toolbar > li > .u-badge {
+    margin-top: 16px;
+}
+
+a.u-badge.w-20 .uf {
+    /*color: #fff;*/
+}
+.u-navbar-toolbar > li > .u-badge{
+	margin-right:30px;
+}
+/*分页颜色统一变*/
+.u-pagination > .active > a, .u-pagination > .active > span, .u-pagination > .active > a:hover, .u-pagination > .active > span:hover, .u-pagination > .active > a:focus, .u-pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color:#1E7BE2;
+    border-color: #1E7BE2;
+}
+/* 按钮组样式 */
+ .u-button-group{
+	box-shadow:none;
+}
+.u-button-group .u-button {
+	padding:0;
+	background-color: #1E7BE2;
+    border: 1px #1E7BE2 solid;
+}
+.u-button-group .u-button:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+div#content {
+    background: #ECEFF1;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    padding: 6px 28px;
+    margin-left: 78px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease; /* Firefox 4 */
+    -webkit-transition: all 0.3s ease; /* Safari 和 Chrome */
+    -o-transition: all 0.3s ease; /* Opera */
+}
+.list-panel>h2{
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0;
+}
+.logo>img{
+    width: 150px;
+    margin-top: 10px;
+}
